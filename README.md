@@ -24,7 +24,7 @@
 
 下载完成后，macOS 用户请直接打开 pkg 跟着党(误)走，**Windows** 用户请注意⚠️：下载完二进制文件后请右键**以管理员身份运行**，切记！
 
-安装时前面基本上都是点「Next」，但到下图这个步骤时一定要**把第一个复选框给勾上**！！！！不然后面很麻烦，切记！**「Add Anaconda3 to my PATH environment variable」一定要勾选！**这个选项是把 Anaconda 添加到系统的环境变量中，这样可以更方便的使用命令行而不是图形化的方式使用 Anaconda。
+安装时前面基本上都是点「Next」，但到下图这个步骤时一定要**把第一个复选框给勾上**！！！！不然后面很麻烦，切记！**Add Anaconda3 to my PATH environment variable** 一定要勾选！这个选项是把 Anaconda 添加到系统的环境变量中，这样可以更方便的使用命令行而不是图形化的方式使用 Anaconda。
 
 ![截屏2021-02-16 下午3.04.10.png](https://res.craft.do/user/full/3d2e681a-7335-fb0a-0234-c0c4c265da20/doc/138EB6CF-E24B-451B-9B00-6A3CCEBF4863/56C250E7-9715-4F19-82CA-618AC04BDD88_2)
 
@@ -36,9 +36,9 @@
 
 ![截屏2021-02-16 下午3.04.37.png](https://res.craft.do/user/full/3d2e681a-7335-fb0a-0234-c0c4c265da20/doc/138EB6CF-E24B-451B-9B00-6A3CCEBF4863/E9788DA7-81A4-4E12-BD4E-C844C6D4ECE7_2)
 
-在环境变量内添加上面红色框框内的**第二个 Scripts 值**，**注意⚠️：值为你的 Anaconda 安装目录，比如我把 Anaconda 安装到了 F 盘，那么应该添加 F:\Aanaconda\Scripts，同理安装到了 C 盘，那么应该添加 C:\Aanaconda\Scripts。**如果你上面在安装时没有勾选「Add Anaconda3 to my PATH environment variable」，那么接下来也是补救的机会，把红框框剩下两个变量加上就可以补救了。
+在环境变量内添加上面红色框框内的**第二个 Scripts 值**，注意⚠️：值为你的 Anaconda 安装目录，比如我把 Anaconda 安装到了 F 盘，那么应该添加 F:\Aanaconda\Scripts，同理安装到了 C 盘，那么应该添加 C:\Aanaconda\Scripts。如果你上面在安装时没有勾选「Add Anaconda3 to my PATH environment variable」，那么接下来也是补救的机会，把红框框剩下两个变量加上就可以补救了。
 
-此时打开终端(Windows 应该是 PowerShell)，在你的用户标示前应该有一个**(base),**输入  `conda -V`  如果打印出一行 conda 的版本号，那么恭喜你安装成功！🎉如果很不幸，出现了各种奇奇怪怪的错误，那么请检查上述安装步骤，重点检查环境变量，正确的安装应该会在环境变量内有三个 anaconda 相关的变量。
+此时打开终端(Windows 应该是 PowerShell)，在你的用户标示前应该有一个(base),输入  `conda -V`  如果打印出一行 conda 的版本号，那么恭喜你安装成功！🎉如果很不幸，出现了各种奇奇怪怪的错误，那么请检查上述安装步骤，重点检查环境变量，正确的安装应该会在环境变量内有三个 anaconda 相关的变量。
 
 ![截屏2021-02-16 上午10.25.00.png](https://res.craft.do/user/full/3d2e681a-7335-fb0a-0234-c0c4c265da20/doc/138EB6CF-E24B-451B-9B00-6A3CCEBF4863/12B92714-C42A-48FE-9BBE-E8E62C851DDC_2)
 
@@ -154,7 +154,7 @@ conda env create -f ~/environment.yaml
 
 ## Anaconda 能干啥？
 
-# TODO
+### *TODO*
 
 ## 总结
 
