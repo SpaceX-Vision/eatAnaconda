@@ -42,13 +42,13 @@
 
 ![截屏2021-02-16 上午10.25.00.png](https://res.craft.do/user/full/3d2e681a-7335-fb0a-0234-c0c4c265da20/doc/138EB6CF-E24B-451B-9B00-6A3CCEBF4863/12B92714-C42A-48FE-9BBE-E8E62C851DDC_2)
 
-## Anaconda 基本使用
+## conda 基本使用
 
-🎉🎉🎉首先恭喜你成功安装了 Anaconda，那么接下来我们就要学习一下最基本的 Anaconda 操作。
+🎉🎉🎉首先恭喜你成功安装了 Anaconda，那么接下来我们就要学习一下最基本的 conda 操作。
 
 ### 创建环境
 
-你是一名 Python 老师，今天校长突然找到你，决定让你带一个人工智能的班级，上面提到过，两种不同课程班级的 Python 版本是不一样的，所以我们现在需要给人工智能班级创建一个虚拟环境，使用 Anaconda 创建虚拟环境很简单，只需要在终端中输入：
+你是一名 Python 老师，今天校长突然找到你，决定让你带一个人工智能的班级，上面提到过，两种不同课程班级的 Python 版本是不一样的，所以我们现在需要给人工智能班级创建一个虚拟环境，使用 conda 创建虚拟环境很简单，只需要在终端中输入：
 
 ```shell
 conda create --name aiclass python=3
@@ -151,6 +151,10 @@ conda env create -f ~/environment.yaml
 ```
 
 同样的，**create -f** 后面为拷贝到新电脑的 environment.yaml 文件位置，运行完毕后旧电脑上的环境就可以同步到新电脑咯！
+
+## Anaconda 能干啥？
+
+# TODO
 
 ## 总结
 
